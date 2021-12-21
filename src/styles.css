@@ -1,3 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono:wght@400;700&display=swap");
+
 body {
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 40px 0 0 77px;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  margin: 265px 0 0 77px;
+}
+
+#hero-img {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#scarecrow {
+  width: 90%;
+  display: block;
+}
+
+.text-section {
+  margin: 0rem 8rem;
+}
+
+.text-section h1 {
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+
+.text-section p {
+  position: absolute;
+  height: 108px;
+  width: 381px;
+  left: 736px;
+  top: 491px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+}
+
+.text-section button {
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
 }
